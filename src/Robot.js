@@ -35,4 +35,28 @@ export const Robot = [
     username: "John",
     email: "John@SpeechGrammarList.com",
   },
+  {
+    id: 7,
+    name: "KennyKestopher",
+    username: "Kenny",
+    email: "Kenny@SpeechGrammarList.com",
+  },
+  {
+    id: 8,
+    name: "Tobiloba",
+    username: "Tobi",
+    email: "Tobi@SpeechGrammarList.com",
+  },
+  {
+    id: 8,
+    name: "feyisetan",
+    username: "feyi",
+    email: "feyi@SpeechGrammarList.com",
+  },
+  {
+    id: 9,
+    name: "Emeka",
+    username: "emeka",
+    email: "emeka@SpeechGrammarList.com",
+  },
 ];
