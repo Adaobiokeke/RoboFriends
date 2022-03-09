@@ -48,13 +48,13 @@ class App extends Component {
         return (
             <div className='tc'>
             <h1>RoboFriends</h1>         
-            <select style={{width:'100px'}} value={Country} onChange={this.handleCountryChange} >
+            {/* <select style={{width:'100px'}} value={Country} onChange={this.handleCountryChange} >
         {countries.map((country,index)=><option value ={country.label} key={index}>{country.label}</option> )}
             </select><br/>
             <br/>
            {Country === 'Nigeria' && <select style={{width:'100px'}} value={State} onChange={this.handleStateChange}>
         {Nigeria.map((state,index)=><option value={state} key={index}>{state}</option>)}
-           </select>}
+           </select>} */}
             <SearchBox searchChange={this.onSearchChange} />
             <Scroll>
                 <ErrorBoundry>
